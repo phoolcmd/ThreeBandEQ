@@ -3,7 +3,7 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 **/Builds
-**/LibrarySourceCode
+**/JuceLibraryCode
 # User-specific files
 *.rsuser
 *.suo
