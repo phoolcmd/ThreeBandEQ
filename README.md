@@ -21,3 +21,8 @@ Peak filter: This filter allows you to boost or cut a specific frequency band.
 
 Building from Source
 To build this EQ from source, you'll need to follow these steps:
+
+Programming Concepts Used
+Digital Signal Processing (DSP): DSP concepts were used in the implementation of the lowcut, highcut, and peak filters.
+Parameter Control: The user can adjust the parameters of the EQ using a graphical user interface, which involves controlling and manipulating parameters in the code.
+JUCE Framework: The JUCE framework was used for building the EQ plugin and its graphical user interface.
