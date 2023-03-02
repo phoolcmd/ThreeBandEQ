@@ -1,9 +1,9 @@
 # Overview
 The EQ with Lowcut, Highcut, and Peak Filter is a simple equalizer built using the JUCE API. It features the following filters:
 
-- **Lowcut filter:** This filter allows you to reduce the levels of frequencies below a certain cutoff point.
-- **Highcut filter:** This filter allows you to reduce the levels of frequencies above a certain cutoff point.
-- **Peak filter:** This filter allows you to boost or cut a specific frequency band.
+- **Lowcut filter:** reduce the levels of frequencies below a certain cutoff point.
+- **Highcut filter:** reduce the levels of frequencies above a certain cutoff point.
+- **Peak filter:** boost or cut a specific frequency band.
 
 # Building from Source
 To build this synthesizer from source, you'll need to follow these steps:
