@@ -1,3 +1,10 @@
+# Overview
+The EQ with Lowcut, Highcut, and Peak Filter is a simple equalizer built using the JUCE API. It features the following filters:
+
+- **Lowcut filter:** This filter allows you to reduce the levels of frequencies below a certain cutoff point.
+- **Highcut filter:** This filter allows you to reduce the levels of frequencies above a certain cutoff point.
+- **Peak filter:** This filter allows you to boost or cut a specific frequency band.
+
 # Building from Source
 To build this synthesizer from source, you'll need to follow these steps:
 
@@ -6,13 +13,6 @@ To build this synthesizer from source, you'll need to follow these steps:
 3. Open the **'Simpletron Synth.jucer'** file in Projucer.
 4. Make any necessary changes to the project settings, such as adding additional modules or changing the output directory.
 5. Export the project to your desired build format (XCode or Visual Studio) and build the project.
-
-# Overview
-The EQ with Lowcut, Highcut, and Peak Filter is a simple equalizer built using the JUCE API. It features the following filters:
-
-- **Lowcut filter:** This filter allows you to reduce the levels of frequencies below a certain cutoff point.
-- **Highcut filter:** This filter allows you to reduce the levels of frequencies above a certain cutoff point.
-- **Peak filter:** This filter allows you to boost or cut a specific frequency band.
 
 # Programming Concepts Used
 During the development of this EQ, several key programming concepts were learned and implemented. These include:
