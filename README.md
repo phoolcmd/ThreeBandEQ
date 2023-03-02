@@ -15,14 +15,14 @@ To build this synthesizer from source, you'll need to follow these steps:
 # Overview
 The EQ with Lowcut, Highcut, and Peak Filter is a simple equalizer built using the JUCE API. It features the following filters:
 
-Lowcut filter: This filter allows you to reduce the levels of frequencies below a certain cutoff point.
-Highcut filter: This filter allows you to reduce the levels of frequencies above a certain cutoff point.
-Peak filter: This filter allows you to boost or cut a specific frequency band.
+- **Lowcut filter:** This filter allows you to reduce the levels of frequencies below a certain cutoff point.
+- **Highcut filter:** This filter allows you to reduce the levels of frequencies above a certain cutoff point.
+- **Peak filter:** This filter allows you to boost or cut a specific frequency band.
 
-Building from Source
-To build this EQ from source, you'll need to follow these steps:
+# Programming Concepts Used
+During the development of this EQ, several key programming concepts were learned and implemented. These include:
 
-Programming Concepts Used
-Digital Signal Processing (DSP): DSP concepts were used in the implementation of the lowcut, highcut, and peak filters.
-Parameter Control: The user can adjust the parameters of the EQ using a graphical user interface, which involves controlling and manipulating parameters in the code.
-JUCE Framework: The JUCE framework was used for building the EQ plugin and its graphical user interface.
+- **Signal processing:** The EQ involves manipulating digital signals in real time. Signal processing techniques, such as filtering and frequency shaping, were used to achieve the desired sound.
+- **Object-oriented programming:** The EQ was designed with an object-oriented approach, which allowed for easy management of complex functionality, such as the filter algorithms and parameter controls.
+- **Event-driven programming:** The user interface of the EQ is event-driven, meaning that it responds to user actions, such as clicking on a button or adjusting a knob. Event-driven programming was used to create an intuitive and interactive user experience.
+- **API integration:** The EQ was built using the JUCE API, which provided a comprehensive set of libraries and tools for audio plugin development. The integration of the JUCE API allowed for efficient and reliable implementation of key features, such as the filter algorithms and parameter controls.
