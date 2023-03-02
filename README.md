@@ -7,11 +7,6 @@ To build this synthesizer from source, you'll need to follow these steps:
 4. Make any necessary changes to the project settings, such as adding additional modules or changing the output directory.
 5. Export the project to your desired build format (XCode or Visual Studio) and build the project.
 
-# How to Use
-1. Launch the EQ plugin in your DAW of choice.
-2. Adjust the lowcut, highcut, and peak filters to your desired settings.
-3. Apply the EQ to your audio signal.
-
 # Overview
 The EQ with Lowcut, Highcut, and Peak Filter is a simple equalizer built using the JUCE API. It features the following filters:
 
