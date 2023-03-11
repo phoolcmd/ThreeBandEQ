@@ -1,5 +1,5 @@
 # Overview
-The EQ with Lowcut, Highcut, and Peak Filter is a simple equalizer built using the JUCE API. It features the following filters:
+An EQ with Lowcut, Highcut, and Peak Filter built using the JUCE API. It features the following filters:
 
 - **Lowcut filter:** reduce the levels of frequencies below a certain cutoff point.
 - **Highcut filter:** reduce the levels of frequencies above a certain cutoff point.
