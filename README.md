@@ -20,3 +20,7 @@ During the development of this EQ, several key programming concepts were learned
 - **Object-oriented programming:** The EQ was designed with an object-oriented approach, which allowed for easy management of complex functionality, such as the filter algorithms and parameter controls.
 - **Event-driven programming:** The user interface of the EQ is event-driven, meaning that it responds to user actions, such as clicking on a button or adjusting a knob. Event-driven programming was used to create an intuitive and interactive user experience.
 - **API integration:** The EQ was built using the JUCE API, which provided a comprehensive set of libraries and tools for audio plugin development. The integration of the JUCE API allowed for efficient and reliable implementation of key features, such as the filter algorithms and parameter controls.
+
+# TODO:
+1. Adjust response curve bounds
+2. Add slider labels 
